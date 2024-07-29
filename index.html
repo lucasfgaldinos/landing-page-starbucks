@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Starbucks</title>
+</head>
+
+<body>
+    <div class="circle"></div>
+    <img class="logo" src="./assets/logo.png" alt="starbucks logo">
+
+    <main>
+        <section class="info">
+            <h1>
+                Não é apenas Café,
+                <br>
+                é um 
+                <span>Starbucks!</span>
+            </h1>
+
+            <p>
+                O melhor café do mundo é Starbucks, 
+                experimente nossas opções e prove o saboroso sabor
+                dessa bebida que é conhecida no mundo inteiro!
+            </p>
+
+            <button>Experimente</button>
+        </section>
+
+        <section class="option">
+            <img class="optionImg" src="./assets/option1.png" alt="option 1">
+        </section>
+    </main>
+
+    <div class="mini-options">
+        <img onclick="circleOption1()" class="mini-option1" src="./assets/mini-option1.png" alt="mini-option 1">
+        <img onclick="circleOption2()" class="mini-option2" src="./assets/mini-option2.png" alt="mini-option 2">
+        <img onclick="circleOption3()" class="mini-option3" src="./assets/mini-option3.png" alt="mini-option 3">
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
